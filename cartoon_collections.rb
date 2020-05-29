@@ -1,5 +1,6 @@
 require 'pry'
-dwarves = ["Dopey", "Bashful", "Grumpy"]
+
+
 def roll_call_dwarves(dwarves)# code an argument here
   index = 0
   while index < dwarves.length

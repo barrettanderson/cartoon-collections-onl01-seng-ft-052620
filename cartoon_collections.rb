@@ -3,11 +3,9 @@ require 'pry'
 
 def roll_call_dwarves(dwarves)# code an argument here
 
-  while index < dwarves.length
     #binding.pry
-    dwarves.each_with_index do |name, index|
-      puts "#{index +1}. #{name}"
-    end
+  dwarves.each_with_index do |name, index|
+    puts "#{index +1}. #{name}"
   end
 end
 

@@ -3,6 +3,7 @@ require 'pry'
 def roll_call_dwarves(dwarves)# code an argument here
   index = 0
   while index < dwarves.length
+    binding.pry
     yield(dwarves[index], index)
     index += 1
   end

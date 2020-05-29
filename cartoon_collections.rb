@@ -2,7 +2,6 @@ require 'pry'
 
 
 def roll_call_dwarves(dwarves)
-
     #binding.pry
   dwarves.each_with_index do |name, index|
     puts "#{index +1}. #{name}"
@@ -11,7 +10,7 @@ end
 
 
 def summon_captain_planet(veggies)
-  # Your code here
+  veggies.collect! {|name| name.capitalize }# Your code here
 end
 
 def long_planeteer_calls# code an argument here

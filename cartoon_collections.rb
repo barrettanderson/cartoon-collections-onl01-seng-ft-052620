@@ -1,7 +1,7 @@
-def roll_call_dwarves(names)# code an argument here
+def roll_call_dwarves(array)# code an argument here
   index = 0
-    while index < names.length
-      yield names[index]
+    while index < array.length
+      yield(array[index], index)
       index += 1
     end
 

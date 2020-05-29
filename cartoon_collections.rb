@@ -13,6 +13,7 @@ def summon_captain_planet(veggies)
   veggies.collect! {|name| name.capitalize + "!"}
 end
 
+
 def long_planeteer_calls(calls_long)
   index = 0
   if calls_long.any? {|index| index.length > 4}
@@ -20,6 +21,7 @@ def long_planeteer_calls(calls_long)
   else
     return false
   index += 1
+  end
 end
 
 def find_the_cheese# code an argument here

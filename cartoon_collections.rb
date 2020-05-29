@@ -1,7 +1,7 @@
 require 'pry'
 
 
-def roll_call_dwarves(dwarves)# code an argument here
+def roll_call_dwarves(dwarves)
 
     #binding.pry
   dwarves.each_with_index do |name, index|
@@ -10,10 +10,7 @@ def roll_call_dwarves(dwarves)# code an argument here
 end
 
 
-
-      # Your code here
-
-def summon_captain_planet# code an argument here
+def summon_captain_planet(veggies)
   # Your code here
 end
 

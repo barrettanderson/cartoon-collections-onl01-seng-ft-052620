@@ -4,7 +4,6 @@ def roll_call_dwarves(array)# code an argument here
     yield(array[index], index)
     index += 1
   end
-  array
 end
 
 roll_call_dwarves(array) do |name, index|

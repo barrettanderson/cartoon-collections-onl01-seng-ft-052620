@@ -1,14 +1,17 @@
 require 'pry'
-
+dwarves = ["Dopey", "Bashful", "Grumpy"]
 def roll_call_dwarves(dwarves)# code an argument here
   index = 0
   while index < dwarves.length
-    puts "#{index + 1}. #{dwarves}"
+    #binding.pry
+    yield(dwarves[index], index)
     index += 1
   end
 end
 
-roll_call_dwarves(dwarves)
+roll_call_dwarves(dwarves) do |name, index|
+  puts "#{index + 1}. #{name}"
+end
 
       # Your code here
 

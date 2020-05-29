@@ -1,4 +1,4 @@
-def roll_call_dwarves(dwarves)# code an argument here
+def roll_call_dwarves_with_index(dwarves)# code an argument here
   index = 0
   while index < dwarves.length
     yield(dwarves[index], index)
@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarves)# code an argument here
   end
 end
 
-roll_call_dwarves(dwarves) do |name, index|
+roll_call_dwarves_with_index(dwarves) do |name, index|
   puts "#{index + 1}. #{name}"
 end
 

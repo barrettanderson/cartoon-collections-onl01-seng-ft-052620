@@ -3,15 +3,12 @@ require 'pry'
 def roll_call_dwarves(dwarves)# code an argument here
   index = 0
   while index < dwarves.length
-    binding.pry
-    yield(dwarves[index], index)
+    puts "#{index + 1}. #{dwarves}"
     index += 1
   end
 end
 
-roll_call_dwarves(dwarves) do |name, index|
-  puts "#{index + 1}. #{name}"
-end
+roll_call_dwarves(dwarves)
 
       # Your code here
 

@@ -33,6 +33,4 @@ def find_the_cheese(cheddar_cheese)
   else
     returns false
   end
-  # the array below is here to help
-
 end

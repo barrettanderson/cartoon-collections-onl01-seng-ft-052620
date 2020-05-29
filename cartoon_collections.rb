@@ -6,6 +6,7 @@ def roll_call_dwarves(dwarves)# code an argument here
     yield(dwarves[index], index)
     index += 1
   end
+  dwarves
 end
 
 roll_call_dwarves(dwarves) do |name, index|

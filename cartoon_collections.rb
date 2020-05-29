@@ -10,7 +10,7 @@ end
 
 
 def summon_captain_planet(veggies)
-  veggies.collect! {|name| name.capitalize }# Your code here
+  veggies.collect! {|name| name.capitalize + "!"}# Your code here
 end
 
 def long_planeteer_calls# code an argument here

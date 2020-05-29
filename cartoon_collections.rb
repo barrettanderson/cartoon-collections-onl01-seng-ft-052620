@@ -1,3 +1,5 @@
+dwarves = [Dopey Grumpy Bashful]
+
 def roll_call_dwarves(dwarves)# code an argument here
   index = 0
   while index < dwarves.length

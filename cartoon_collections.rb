@@ -30,7 +30,5 @@ def find_the_cheese(cheddar_cheese)
   cheddar_cheese.find{|i| i=cheddar?}
   if true
     return cheddar
-  else
-    returns false
   end
 end

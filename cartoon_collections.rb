@@ -28,7 +28,5 @@ end
 cheese_types = ["cheddar", "gouda", "camembert"]
 def find_the_cheese(cheddar_cheese)
   cheddar_cheese.find{|i| i=cheddar?}
-  if true
-    return cheddar
-  end
+
 end

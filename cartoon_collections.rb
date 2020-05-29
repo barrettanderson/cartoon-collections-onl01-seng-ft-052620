@@ -1,4 +1,4 @@
-
+require 'pry'
 
 def roll_call_dwarves(dwarves)# code an argument here
   index = 0
@@ -8,9 +8,9 @@ def roll_call_dwarves(dwarves)# code an argument here
   end
 end
 
-# roll_call_dwarves(dwarves) do |name, index|
-#   puts "#{index + 1}. #{name}"
-# end
+roll_call_dwarves(dwarves) do |name, index|
+  puts "#{index + 1}. #{name}"
+end
 
       # Your code here
 
